@@ -7,7 +7,7 @@ function Home () {
   return (
     <MainContainer>
       <h1>Basic Chat App</h1>
-      <p className='lead'> Simple Web Chat </p>
+      <p className='lead'> Simple Web Chat - Chat with Random People </p>
       <Link to='/ChatUser'>
         <button type='button' className='btn btn-lg btn-success'>Get Started</button>
       </Link>
