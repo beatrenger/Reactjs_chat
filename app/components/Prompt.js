@@ -11,9 +11,9 @@ function Prompt (props) {
             <input
               className='form-control'
               onChange={props.onUpdateUser}
-              placeholder='Github Username'
+              placeholder='Username'
               type='text'
-              value={props.username} />
+                value={props.username} />
           </div>
           <div className="form-group col-sm-4 col-sm-offset-4">
             <button

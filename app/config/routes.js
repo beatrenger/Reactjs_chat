@@ -7,13 +7,13 @@ var IndexRoute = ReactRouter.IndexRoute;
 var Main = require('../components/Main');
 var Home = require("../components/Home");
 var PromptContainer = require("../containers/PromptContainer");
-
+var ChatContainer   = require("../containers/ChatContainer");
 var routes = (
   <Router history={hashHistory}>
     <Route path='/' component={Main}>
       <IndexRoute component={Home} />
-      <Route path='ChatUser' header='Chat User' component={PromptContainer} />
-
+      <Route path='user_name' header='Chat User' component={PromptContainer} />
+      <Route path='chatchannel' header='The Channel' component={ChatContainer} />
     </Route>
   </Router>
 );
