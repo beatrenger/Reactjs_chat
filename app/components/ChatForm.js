@@ -15,7 +15,7 @@ var ChatForm = React.createClass({
           <div className="form-group">
             <label htmlFor="User" className="col-md-2 control-label">{this.props.userInfo} </label>
             <div className="col-md-10">
-            <input type="text" id="task" ref="task" className="form-control" placeholder="Send your Message :)" />
+            <input type="text" id="message" ref="message" className="form-control" onChange={this.props.onHandleMessage} placeholder="Send your Message :)" value={this.props.onMessage} />
             </div>
           </div>
           <div className="row">

@@ -2,7 +2,6 @@
 var React  = require('react');
 
 
-
 var ChatContent = React.createClass({
 
   	render: function() {
@@ -12,7 +11,7 @@ var ChatContent = React.createClass({
       <li className="list-group-item clearfix">
 
         <div   role="group">
-          {this.props.task}:  {this.props.comment}
+       {this.props.task}:  {this.props.comment}
           </div>
       </li>
 
