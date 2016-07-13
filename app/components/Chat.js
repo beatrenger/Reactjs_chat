@@ -1,6 +1,5 @@
 var React  = require('react');
 var ChatContent = require('../components/ChatContent');
-
 var ReactDOM = require('react-dom');
 
 
