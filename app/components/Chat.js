@@ -13,7 +13,7 @@ render: function(props){
 
     return (
 
-     <ChatContent key={listItem.id} task={listItem.user} comment={listItem.comment} />
+     <ChatContent key={listItem.id} user={listItem.user} comment={listItem.comment} />
     );
   },this);
 

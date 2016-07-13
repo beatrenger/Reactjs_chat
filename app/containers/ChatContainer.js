@@ -2,6 +2,7 @@ var React  = require('react');
 var PUBNUB = require('pubnub');
 var Chat = require('../components/Chat');
 var ChatForm = require('../components/ChatForm');
+var PropTypes = React.PropTypes;
 
 
 
@@ -17,9 +18,7 @@ var pubnub = PUBNUB.init({  // chat  plugin
 
 
 var ChatContainer = React.createClass({
-  contextTypes: {
-router: React.PropTypes.object.isRequired
-},
+
 handleMessageChange: function(e) {
 
     this.setState({UserMessage: e.target.value});
@@ -33,9 +32,7 @@ getInitialState: function () {
       UserMessage: '',
       userInfo: '',
       data: [
-				{"id":"00001","comment":"HEY WHATS UP!","user":"beatrenger"},
-				{"id":"00002","comment":"NOTHING MUCH YOU?","user":"beatrenger1"},
-        {"id":"00003","comment":"SAME lol... buzz killz","user":"beatrenger2"}
+
 			],
 
     }
@@ -98,4 +95,8 @@ render: function(){
       )
   }
 });
+
+
+
+
 module.exports = ChatContainer;
