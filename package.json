@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
-    "start": "webpack-dev-server",
-    "postinstall": "npm run start"
+    "start": "webpack-dev-server"
 
   },
   "repository": {
