@@ -20,6 +20,10 @@ var pubnub = PUBNUB.init({  // chat  plugin
 var ChatContainer = React.createClass({
 
 handleMessageChange: function(e) {
+          pubnub.here_now({
+        channel : 'my_channel',
+        callback : function(m){console.log(m)}
+        });
 
     this.setState({UserMessage: e.target.value});
 },
