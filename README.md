@@ -7,9 +7,9 @@ Its a simple chat using Reactjs and Pubnub!
 
 Install node
 
-  npm Install
+  `npm Install`
 
-  npm run start
+  `npm run start`
 
   Localhost:8080
 
