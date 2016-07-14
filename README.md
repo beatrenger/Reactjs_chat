@@ -1,11 +1,14 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
+
+
+
+# Reactjs_chat
 Its a simple chat using Reactjs and Pubnub!
 ## Installation
+
 Install node
 
   npm Install
+
   npm run start
 
   Localhost:8080
@@ -21,6 +24,3 @@ Type In User Name and start Chatting :)
 5. Submit a pull request :D
 
 TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
