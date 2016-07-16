@@ -52,9 +52,8 @@ getInitialState: function () {
       var comment = this.state.UserMessage;
       var user = this.state.userInfo;
       var id =  this.generateId().toString();
-      var data = [
-            {id, comment, user}
-          ]
+      var data = [  {id , comment , user}  ];
+
       pubnub.publish({
     channel : 'my_channel',
     message : data,

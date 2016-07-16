@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
-    "start": "node server.js",
-    "postinstall": "webpack -p --config webpack.prod.config.js"
+    "start": "node server.js"
 
 
   },

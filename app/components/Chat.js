@@ -4,7 +4,7 @@ var ReactDOM = require('react-dom');
 
 
 var Chat = React.createClass({
-  componentDidUpdate() {
+  componentDidUpdate: function() {
     var node = ReactDOM.findDOMNode(this);
       node.scrollTop = node.scrollHeight;
   },
