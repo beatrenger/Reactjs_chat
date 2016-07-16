@@ -14416,6 +14416,7 @@
 	var pubnub = PUBNUB.init({ // chat  plugin
 	    publish_key: 'pub-c-4dfb17ad-b4c4-4e2b-acb5-afb7a1bd0576',
 	    subscribe_key: 'sub-c-a08b87a8-4864-11e6-ba28-02ee2ddab7fe',
+	    ssl: 'https:' == document.location.protocol ? true : false,
 	    error: function (error) {
 	        console.log('Error:', error);
 	    }
