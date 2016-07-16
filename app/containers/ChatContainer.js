@@ -57,6 +57,7 @@ getInitialState: function () {
       pubnub.publish({
     channel : 'my_channel',
     message : data,
+     ssl : (('https:' == document.location.protocol) ? true : false),
     callback : function(m){
         console.log(m)
     }
